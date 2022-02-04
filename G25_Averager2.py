@@ -43,3 +43,4 @@ def g25_average(input):
     print("Output: \n" + average)
     with open("output.txt", "w") as output_coords:
         output_coords.write(average)
+g25_average("input.txt")
